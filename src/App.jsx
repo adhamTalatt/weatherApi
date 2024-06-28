@@ -1,6 +1,11 @@
 import "./App.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+
+//component
+import WeatherComponent from "./component/WeatherComponent";
+
+//mui
 
 function App() {
   const theme = createTheme({
@@ -11,10 +16,16 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <div>
-          <Typography variant="h1">السلام عليكم</Typography>
-          <h1>السلام عليكم</h1>
-        </div>
+        <Container
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            height: "100vh",
+          }}
+          maxWidth="sm"
+        >
+          <WeatherComponent />
+        </Container>
       </ThemeProvider>
     </>
   );

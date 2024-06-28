@@ -1,0 +1,35 @@
+.imgIcon {
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgIcon {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .imgIcon {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .imgIcon {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .imgIcon {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .imgIcon {
+    width: 200px;
+    height: 200px;
+  }
+}
