@@ -5,7 +5,6 @@ import Container from "@mui/material/Container";
 //component
 import WeatherComponent from "./component/WeatherComponent";
 
-//mui
 
 function App() {
   const theme = createTheme({
